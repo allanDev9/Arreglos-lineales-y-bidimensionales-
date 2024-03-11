@@ -8,7 +8,7 @@ int main(){
     cout<<"Ingresa tu nombre y apellido: ";
     cin>>nombre>>apellido;
 
-    cout<<" Hola "<<nombre<<" "<<apellido;
+    cout<<" Hola, como estas "<<nombre<<" "<<apellido<<"?";
  
 
 }
