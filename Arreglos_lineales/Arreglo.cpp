@@ -1,14 +1,22 @@
+/*Escribe un programa que defina un vector de numeros 
+y calcule la multiplicacion acumulada de sus elementos. */
+
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 int main(){
 
-    string nombre, apellido;
+    int numeros[]={1,2,3,4,5};
+    int multiplicacion = 1;
 
-    cout<<"Ingresa tu nombre y apellido: ";
-    cin>>nombre>>apellido;
+    for (int i = 0; i < 5; i++){
+        multiplicacion *= numeros[i];
 
-    cout<<" Hola, como estas "<<nombre<<" "<<apellido<<"?";
- 
+    }
+
+    cout<<"La multiplicacion de los numeros es: "<<multiplicacion<<"\n";
+
+    return 0;
 
 }
