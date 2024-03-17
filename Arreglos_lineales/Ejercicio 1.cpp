@@ -2,7 +2,6 @@
 y calcule la multiplicacion acumulada de sus elementos. */
 
 #include <iostream>
-#include <conio.h>
 
 using namespace std;
 int main(){
