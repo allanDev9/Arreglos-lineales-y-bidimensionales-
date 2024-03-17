@@ -19,7 +19,6 @@ int main(){
         cout<<n2[i]<<"\n";
     }
 
-   
-
     return 0;
+    
 }
