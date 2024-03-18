@@ -14,11 +14,10 @@ int main(){
             cout<<numeros[i][j];
         }
         cout<<"\n";
-    }
-        for(int i=0;i<3;i++){
-          cout<<numeros[i][1]<<endl;
-           
-        }
+    } 
+            
+       cout<<numeros[2][2]<<endl;
+            
 
     return 0;
 }
